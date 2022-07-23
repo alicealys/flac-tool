@@ -184,7 +184,7 @@ namespace tool
 			const auto new_name = base_name + "_converted.flac";
 
 			utils::io::write_file(new_name, new_data, false);
-			printf("Conversion successful!\n");
+			printf("Conversion successful!\nSaved to %s\n", new_name.data());
 		}
 	}
 
